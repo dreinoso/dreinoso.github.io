@@ -11,7 +11,7 @@ to deploy a web page than a user page.** This is actually a user page, if you ar
 ```
     npm install gh-pages --save-dev
 ```
-Finally you shall know that deploying this on github is a little tricky. Because this is a user page, GitHub try to read the repository in a different way, usually 'd try to find the index.html, since such file does not exist in our react app, we have to do the following.
+Finally you shall know that deploying this on github is a little tricky. Because this is a user page, GitHub try to read the repository in a different way, usually 'd try to find the index.html, since such file does not exist in the root of the react project, we have to do the following.
 
 ## Deploying resume on GitHub
 
