@@ -60,46 +60,60 @@ let resumeData = {
   "skillsDescription":"",
   "skills":[
     {
-      "skillname":"Java"
+      "skillname":"Java",
+      "level":95
     },
     {
-      "skillname":"Andriod"
+      "skillname":"Android",
+      "level":90
     },
     {
-      "skillname":"Python"
+      "skillname":"Python",
+      "level":50
     },
     {
-      "skillname":"Linux"
+      "skillname":"Linux",
+      "level":92
     },
     {
-      "skillname":"Git"
+      "skillname":"Git",
+      "level":96
     },
     {
-      "skillname":"C"
+      "skillname":"C",
+      "level":60
     },
     {
-      "skillname":"C++"
+      "skillname":"C++",
+      "level":70
     },
     {
-      "skillname":"Golang"
+      "skillname":"Golang",
+      "level":20
     },
     {
-      "skillname":"Kotlin"
+      "skillname":"Kotlin",
+      "level":10
     },
     {
-      "skillname":"React"
+      "skillname":"React",
+      "level":30
     },
     {
-      "skillname":"Flutter"
+      "skillname":"Flutter",
+      "level":10
     },
     {
-      "skillname":"Golang"
+      "skillname":"Embedded Android",
+      "level":50
     },
     {
-      "skillname":"Golang"
+      "skillname":"Agile Methodology",
+      "level":90
     },
     {
-      "skillname":"Embedded Systems"
+      "skillname":"Embedded Systems",
+      "level":80
     }
   ],
   "portfolio":[
