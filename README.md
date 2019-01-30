@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Denis Reinoso - Resume
 
-## Available Scripts
+Here I made my own portfolio with React, you can visit it at https://dreinoso.github.io/
 
-In the project directory, you can run:
+## If you think doing something similar
 
-### `npm start`
+To get this working, the first thing is [creating the React App](https://github.com/facebook/create-react-app). After that you can build your own portfolio from scratch or use some template and start from that, surely you may need to do some important changes to the templete to looks as you wish.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+When you have your web app ready, need to install GitHub web pages, here I want to make a clarification, **it is not the same 
+to deploy a web page than a user page.** This is actually a user page, if you are trying to deploy a web page, you should do something like [this.](https://github.com/gitname/react-gh-pages)
+```
+    npm install gh-pages --save-dev
+```
+Finally you shall know that deploying this on github is a little tricky. Because this is a user page, GitHub try to read the repository in a different way, usually 'd try to find the index.html, since such file does not exist in our react app, we have to do the following.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Deploying resume on GitHub
 
-### `npm test`
+1. Create your GitHub repository, **the name is important.** You must put as name "yourgitname.github.io".
+2. Create a new branch, let's call it "source".
+3. Make source the origin branch, but do not remove master. To change the origin branch go to the repo on GitHub and Settings > Branches > Default Branch has to be source
+4. Put all your project on the source branch
+5. Add some properties to the app's package.json file.
+```
+    ...
+    "homepage": "https://yourgitname.github.io/"
+    ...
+    "scripts": {
+      ...
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build -b master"
+    }
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Here comes the magic!**
 
-### `npm run build`
+6. Go to the project on terminal and run
+```
+    npm run deploy
+```
+7. Enter your GitHub credentials
+8. Wait some minutes and go to your new own page: https://yourgitname.github.io/ 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Note: you can see this repository as an example for the settings.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## ---------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Feel free to [contact me](https://dreinoso.github.io/#contact) for any question, work, suggestion.
 
-### `npm run eject`
+### Have Nice Coding!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Denis
