@@ -42,7 +42,7 @@ Finally you shall know that deploying this on github is a little tricky. Because
 
 ## ---------------------------------------
 
-### Feel free to contact me for any question, work, suggestion.
+### Feel free to [contact me](https://dreinoso.github.io/#contact) for any question, work, suggestion.
 
 ### Have Nice Coding!
 
