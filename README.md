@@ -15,14 +15,14 @@ Finally you shall know that deploying this on github is a little tricky. Because
 
 ## Deploying resume on GitHub
 
-1. Create your GitHub repository.
+1. Create your GitHub repository, **the name is important.** You must put as name "yourgitname.github.io".
 2. Create a new branch, let's call it "source".
 3. Make source the origin branch, but do not remove master. To change the origin branch go to the repo on GitHub and Settings > Branches > Default Branch has to be source
 4. Put all your project on the source branch
 5. Add some properties to the app's package.json file.
 ```
     ...
-    "homepage": "https://gitname.github.io/"
+    "homepage": "https://yourgitname.github.io/"
     ...
     "scripts": {
       ...
@@ -38,7 +38,7 @@ Finally you shall know that deploying this on github is a little tricky. Because
     npm run deploy
 ```
 7. Enter your GitHub credentials
-8. Wait some minutes and go to your new own page: https://gitname.github.io/ 
+8. Wait some minutes and go to your new own page: https://yourgitname.github.io/ 
 
 ## ---------------------------------------
 
