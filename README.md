@@ -1,6 +1,6 @@
 # Denis Reinoso - Resume
 
-Here I made my own portfolio with React you can visit it at: https://dreinoso.github.io/
+Here I made my own portfolio with React, you can visit it at https://dreinoso.github.io/
 
 ## If you think doing something similar
 
@@ -39,6 +39,8 @@ Finally you shall know that deploying this on github is a little tricky. Because
 ```
 7. Enter your GitHub credentials
 8. Wait some minutes and go to your new own page: https://yourgitname.github.io/ 
+
+Note: you can see this repository as an example for the settings.
 
 ## ---------------------------------------
 
