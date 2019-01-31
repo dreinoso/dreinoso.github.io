@@ -3,6 +3,7 @@ let resumeData = {
   "name": "Denis Reinoso",
   "role": "Computer Engineer",
   "linkedinId":"denisreinoso",
+  "linkedinUrl":"https://www.linkedin.com/in/denisreinoso/",
   "skypeid": "live:denis.reinoso",
   "roleDescription": "Computer Engineer with 4 + years of experience working with agile methodologies in different kind of projects, from low to high level systems, actually with JAVA and Android as main development languages.",
   "socialLinks":[
@@ -118,24 +119,48 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"User Interface for a Protection System in Windows",
-      "description":"Working with C++ and C#, using the Visual Studio environment for the development of a large and complex application for data protection in Windows Systems.",
-      "imgurl":"images/portfolio/phone.jpg"
+      "name":"Android App for Application of Pomodoro Study Tecnique",
+      "technologies":"Android, Java",
+      "date":"2019",
+      "imgurl":"images/portfolio/pomodoro.jpeg"
+    },
+    {
+      "name":"Android App for a Kanban Task Organizer",
+      "technologies":"Android, Java",
+      "date":"2018",
+      "imgurl":"images/portfolio/kanban.jpeg"
+    },
+    {
+      "name":"Android Infotainment System for an Acura Car",
+      "technologies":"Android, Java, C",
+      "date":"2017 - Present",
+      "imgurl":"images/portfolio/androidInfoteinment.jpg"
+    },
+    {
+      "name":"Interface for Data Protection System of Intel",
+      "technologies":"C#; C++",
+      "date":"2016 - 2017",
+      "imgurl":"images/portfolio/dataProtection.jpeg"
     },
     {
       "name":"Smart Communicator for Embedded Systems",
-      "description":"Module for communication by many ways using different technologies",
-      "imgurl":"images/portfolio/project.jpg"
-    },
-    {
-      "name":"Home Control and Supervision ",
-      "description":"This system count with a manual and automatic control for some sensors and actors in a house. With a manual mode, determinate which lights are on. The automatic mode involves some light sensor, so when certain threshold is reached the lights are turned on without the intervention of the user.      Also, It provides a movement sensor, if some movement is detected in a range of time, a message is sent to the owner of the house, the message can be forwarder through email or SMS. The GUI of the system is acceded across Internet by any device (Server developed in Django).",
-      "imgurl":"images/portfolio/project2.png"
+      "technologies":"Python",
+      "date":"2015 - 2016",
+      "imgurl":"images/portfolio/communicator.png",
+      "link":"https://github.com/dreinoso/communicator"
     },
     {
       "name":"Segmented Processor based on MIPS ",
-      "description":"Development of a pipeline in Verilog language for DLX processor.",
-      "imgurl":"images/portfolio/phone.jpg"
+      "technologies":"Verilog, Python",
+      "date":"2013",
+      "imgurl":"images/portfolio/mips.png"
+    },
+    {
+      "name":"Home Control and Supervision ",
+      "technologies":"C, Django",
+      "date":"2014",
+      "imgurl":"images/portfolio/homeControl.jpg",
+      "link":"https://github.com/dreinoso/illumination-control"
     }
   ],
   "testimonials":[
