@@ -3,9 +3,10 @@ let resumeData = {
   "name": "Denis Reinoso",
   "role": "Computer Engineer",
   "linkedinId":"denisreinoso",
+  "email":"reinoso.denis@gmail.com",
   "linkedinUrl":"https://www.linkedin.com/in/denisreinoso/",
   "skypeid": "live:denis.reinoso",
-  "roleDescription": "Computer Engineer with 4 + years of experience working with agile methodologies in different kind of projects, from low to high level systems, actually with JAVA and Android as main development languages.",
+  "roleDescription": "Computer Engineer with 4 + years of experience working with agile methodologies in different kind of projects, from low to high level systems, actually with Java and Android as main development languages.",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -28,33 +29,42 @@ let resumeData = {
   "website":"https://www.yourchainreaction.com",
   "education":[
     {
-      "UniversityName":"Universidad Nacional de Cordoba",
-      "specialization":"Computer Engineering specialization",
-      "MonthOfPassing":"Dec",
-      "YearOfPassing":"2016",
-      "Achievements":(" Young Entrepreneurs - FONSOFT", "Smart Communicator for Embedded Systems")
+      "UniversityName":"Oracle Certified Professional",
+      "specialization":"Oracle Certified Professional, Java SE 8 Programmer II",
+      "MonthOfPassing":"",
+      "YearOfPassing":"2018",
+    },
+    {
+      "UniversityName":"Oracle Certified Associate",
+      "specialization":"Oracle Certified Associate, Java SE 8 Programmer I",
+      "MonthOfPassing":"",
+      "YearOfPassing":"2017",
+    },
+    {
+      "UniversityName":"Computer Engineering",
+      "specialization":"Universidad Nacional de Cordoba",
+      "MonthOfPassing":"",
+      "YearOfPassing":"2008 - 2016",
+      "Achievements":""
     },
   ],
   "work":[
     {
       "CompanyName":"SimTLiX S.R.L.",
       "specialization":"Android Engineer",
-      "MonthOfLeaving":"-",
-      "YearOfLeaving":"Currently Working here",
+      "transitionDates":"2017 - Present",
       "Achievements":"Developing of Android apps in a huge project for a important car manufactured. Involves all the applications of audio, setting, phone, etc.. that make the whole system."
     },
     {
       "CompanyName":"Taller Technologies",
       "specialization":"Software Engineer",
-      "MonthOfLeaving":"Feb",
-      "YearOfLeaving":"2017",
+      "transitionDates":"2016 - 2017",
       "Achievements":"Working  with C++ and C#, using the Visual Studio environment for the development of a large and complex application for data protection in Windows Systems. "
     },
     {
       "CompanyName":"Facultad de Ciencias Exactas, Físicas y Naturales",
       "specialization":"Software Developer",
-      "MonthOfLeaving":"Dec",
-      "YearOfLeaving":"2016",
+      "transitionDates":"2014 - 2016",
       "Achievements":"Project in python for a data-logger system, developing the communication module that let the data-logger transfer data by many technologies (email, bluetooth, network, GPRS, 3G, SMS, calls) in a smart and flexible way. "
     }
   ],
