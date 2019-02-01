@@ -24,7 +24,7 @@ let resumeData = {
         "className":"fa fa-skype"
       }
     ],
-  "aboutme":"I have finished my studies as Computer Engineer and have been working in software industry for past few years. I alwasys try to be up to date with last technologies.",
+  "aboutme":"I have finished my studies as Computer Engineer and have been working in software industry for past few years. I always try to be up to date with last technologies.",
   "address":"Córdoba, Argentina",
   "website":"",
   "education":[
